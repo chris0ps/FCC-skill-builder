@@ -14,13 +14,13 @@ body {
   padding-bottom: 5px;
 }
 
-.todo-list li {
+ul .invisible {
   background-color: #e5f1e5;
   border-radius: 10px;
   margin: 10px;
   list-style-position: inside;
   text-align: left;
-  padding: 10px;
+  padding: 25px;
 }
 
 .todo-list ul {
@@ -30,7 +30,8 @@ body {
 
 .sub-item li {
   list-style: square inside;
-  padding-left: 25px;
+  padding-top: 20px;
+  padding-left: 34px;
 }
 
 label {
@@ -38,7 +39,7 @@ label {
 }
 
 input {
-  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .invisible {
